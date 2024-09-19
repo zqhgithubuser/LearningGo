@@ -33,7 +33,7 @@ func main() {
 		// 是否可执行
 		if mode&0111 != 0 {
 			fmt.Println(fullPath)
-			return
+			continue
 		}
 	}
 }
